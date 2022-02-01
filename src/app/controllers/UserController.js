@@ -82,6 +82,11 @@ class UserController{
      * Inserção no banco de dados
      */
 
+
+        //enviando mensagem de whatsapp
+
+
+
      await  User.create(data, (err) =>{
          if(err)
             return res.status(400).json({

@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const routes = require('./routes');
 const morgan = require('morgan');
-require('../config/connection')
+require('./config/connection')
 
 class App {
     constructor(){
